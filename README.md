@@ -15,4 +15,4 @@ Bind 3 keyboard shorcuts :
 Press the 1st key bind. You need this once everytime you start your pc.
 After that you can change the brightness with 2nd and 3rd bind. 
 
-# \(^-^)/
+# \\(^-^)/
