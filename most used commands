@@ -1,0 +1,9 @@
+INFO                : Command              
+--------------------------------------------------------------------------------
+
+CPU freq            : cd /sys/devices/system/cpu/intel_pstate
+
+Graphics Card       : cd /sys/class/drm/card0 
+
+Opening directory   : xdg-open .
+
