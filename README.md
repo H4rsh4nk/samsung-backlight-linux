@@ -8,8 +8,8 @@ Locate backlight folder for you pc and change the /path according to it.
 ## Step 2
 Bind 3 keyboard shorcuts :
 ### 1 "pkexec sh /path/a.sh"      //this wil change the write permission of backlight file
-### 2 "sh /path/inc_backlit.sh"   //fos increasing backlight
-### 2 "sh /path/dec_backlit.sh"   //for decreasing backlight
+### 2 "sh /path/inc_baclit.sh"   //increasing backlight brightness
+### 2 "sh /path/dec_baclit.sh"   //decreasing backlight brightness
 
 ## Step 3 
 Press the 1st key bind. You need this once everytime you start your pc.
