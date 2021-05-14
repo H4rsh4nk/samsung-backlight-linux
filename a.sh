@@ -1,5 +1,5 @@
 #!/bin/bash
-pkexec chmod ugo+rwx /sys/class/leds/samsung::kbd_backlight/brightness
+echo "toor" | sudo -S chmod ugo+rwx /sys/class/leds/samsung::kbd_backlight/brightness
 if [ $? -eq 0 ]; then
    notify-send 'Success' 'Keyboard backlight unlocked ｡◕‿◕｡'
 else
