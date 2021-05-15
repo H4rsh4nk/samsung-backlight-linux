@@ -24,8 +24,8 @@ Bind 2 keyboard shorcuts :
 
 <img src="./Keyboard-bind.png" width="800"> 
 
-### 1 **`sh /path_where_your_placed_file/inc_baclit.sh`**   _// increasing backlight brightness_
-### 2 **`sh /path_where_your_placed_file/dec_baclit.sh`**   _// decreasing backlight brightness_
+### 1 **`sh /path_where_you_placed_file/inc_baclit.sh`**   _// increasing backlight brightness_
+### 2 **`sh /path_where_you_placed_file/dec_baclit.sh`**   _// decreasing backlight brightness_
 
 ## Step 4 
 Enjoy
