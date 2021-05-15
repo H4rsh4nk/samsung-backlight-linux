@@ -1,6 +1,9 @@
 # samsung-backlight-linux
 Fn bind for backlight control for any laptop for linux systems.
 
+Brief: 
+     _ Due to some driver issue I was not able to control my keyboard backlight with Fn keys. Futher I searched on Google and Stack but found nothing. So, I decided to my a script for others like me. (◕ᴗ◕✿)_
+  
 ## Step 1
 Copy these files in your pc.
 Locate backlight folder for you pc.
@@ -26,4 +29,4 @@ Enjoy
 
 # (˘︶˘).｡*♡
 
-Will try to make it more automated once i get more time.
+ps. Will try to make it more automated once i get more time.
