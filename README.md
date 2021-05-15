@@ -6,9 +6,13 @@ Copy these files in your pc.
 Locate backlight folder for you pc.
 Normally it should be **/sys/class/leds/_your_device::backlight/brightness_**
 
+<img src="https://github.com/H4rsh4nk/samsung-backlight-linux/blob/main/Driver-folder.png" width="800"> 
+
 ## Step 2
-Edit the path in files i.e. **/sys/class/leds/samsung::kbd_backlight/brightness** 
+Edit the path in both files i.e. **/sys/class/leds/samsung::kbd_backlight/brightness** 
 with your devices specificpath you found in **Step 1**
+
+<img src="https://github.com/H4rsh4nk/samsung-backlight-linux/blob/main/Script_file.png" width="800"> 
 
 And replace **"toor"** with your user password 
 
