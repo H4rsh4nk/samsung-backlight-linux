@@ -1,20 +1,24 @@
 # samsung-backlight-linux
-Shell script for backlight control.
+Fn bind for backlight control for any laptop for linux systems.
 
 ## Step 1
-Paste these files in your computer.
-Locate backlight folder for you pc and change the /path according to it.
+Copy these files and locate backlight folder for you pc.
+Normally it should be **/sys/class/leds/_your_device::backlight/brightness_**
 
 ## Step 2
-Bind 3 keyboard shorcuts :
-### 1 "pkexec sh /path/a.sh"      //this wil change the write permission of backlight file
-### 2 "sh /path/inc_baclit.sh"   //increasing backlight brightness
-### 2 "sh /path/dec_baclit.sh"   //decreasing backlight brightness
+Edit the path in files i.e. **/sys/class/leds/samsung::kbd_backlight/brightness** 
+with your devices specificpath you found in **Step 1**
 
-## Step 3 
-Press the 1st key bind. You need this once everytime you start your pc.
-After that you can change the brightness with 2nd and 3rd bind. 
+And replace **"toor"** with your user password 
 
-# \\(^-^)/
+## Step 3
+Bind 2 keyboard shorcuts :
+### 1 "sh /path_where_your_placed_file/inc_baclit.sh"   //increasing backlight brightness
+### 2 "sh /path_where_your_placed_file/dec_baclit.sh"   //decreasing backlight brightness
+
+## Step 4 
+Enjoy
+
+# (˘︶˘).｡*♡
 
 Will try to make it more automated once i get more time.
