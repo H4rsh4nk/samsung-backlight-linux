@@ -2,7 +2,8 @@
 Fn bind for backlight control for any laptop for linux systems.
 
 ## Step 1
-Copy these files and locate backlight folder for you pc.
+Copy these files in your pc.
+Locate backlight folder for you pc.
 Normally it should be **/sys/class/leds/_your_device::backlight/brightness_**
 
 ## Step 2
