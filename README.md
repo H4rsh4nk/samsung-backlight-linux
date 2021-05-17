@@ -32,4 +32,4 @@ Enjoy
 
 # (˘︶˘).｡*♡
 
-ps. Will try to make it more automated once i get more time.
+ps. I have included **one_key_bind** file. It changes the brightness in following loop : off -> low -> med -> high ...
