@@ -1,0 +1,7 @@
+#!/bin/baash
+pkexec echo 80 >/sys/devices/system/cpu/intel_pstate/min_perf_pct
+if [ $? -eq 0 ]; then
+   notify-send '｡◕‿◕｡' 'Game mode ON'
+else
+   notify-send 'ʕ´• ᴥ•̥`ʔ' 'Game mode failed to exec'
+fi
