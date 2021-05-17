@@ -9,20 +9,20 @@ Copy these files in your pc.
 Locate backlight folder for you pc.
 Normally it should be **`/sys/class/leds/your_device::backlight/brightness`**
 
-<img src="./Driver-folder.png" width="800"> 
+<img src="./Images/Driver-folder.png" width="800"> 
 
 ## Step 2
 Edit the path in both files i.e. **`/sys/class/leds/samsung::kbd_backlight/brightness`**
 with your devices specificpath you found in **Step 1**
 
-<img src="./Script_file.png" width="800"> 
+<img src="./Images/Script_file.png" width="800"> 
 
 And replace **"toor"** with your user password 
 
 ## Step 3
 Bind 2 keyboard shorcuts :
 
-<img src="./Keyboard-bind.png" width="800"> 
+<img src="./Images/Keyboard-bind.png" width="800"> 
 
 ### 1 **`sh /path_where_you_placed_file/inc_baclit.sh`**   _// increasing backlight brightness_
 ### 2 **`sh /path_where_you_placed_file/dec_baclit.sh`**   _// decreasing backlight brightness_
