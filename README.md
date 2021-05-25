@@ -3,7 +3,9 @@ Fn bind for backlight control for any laptop for linux systems.
 
 Brief: 
      _Due to some driver issue I was not able to control my keyboard backlight with Fn keys. Futher I searched on Google and Stack but found nothing. So, I decided to my a script for others like me._ (◕ᴗ◕✿)
-  
+
+## Warning: You can damage or completely burn backlight if you set it to higher brightness than designed.
+But still if you are wanderlust then here it goes:
 ## Step 1
 Copy these files in your pc.
 Locate backlight folder for you pc.
