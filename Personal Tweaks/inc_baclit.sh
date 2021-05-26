@@ -12,7 +12,7 @@ if [ $stat -ne 777 ]; then
    fi
 fi
 brightness=$(cat /sys/class/leds/samsung::kbd_backlight/brightness)
-if [ $brightness -eq 2 ]; then
+if [ $brightness -ge 2 ]; then
    echo 0 > /sys/class/leds/samsung::kbd_backlight/brightness
    notify-send 'Brightness' 'off'
 elif [ $brightness -eq 0 ]; then
